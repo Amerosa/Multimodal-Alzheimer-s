@@ -1,0 +1,7 @@
+/data/**
+!/data/**/.gitkeep
+/experiments/**
+!/experiments/**/.gitkeep
+/weights/**
+!/weights/**/.gitkeep
+*.pyc

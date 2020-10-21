@@ -1,0 +1,34 @@
+{
+    "exp_name": "Mgaf_0001lr",
+    "agent": "MgafAgent",
+    "modality": "both",
+  
+    "cuda": true,
+    "gpu_device": 0,
+    "seed": 40,
+  
+    "img_size": 32,
+    "input_channels": 3,
+  
+    "num_classes": 4,
+  
+    "learning_rate": 0.0001,
+    "betas": [0.9, 0.999],
+    "weight_decay": 0.0,
+  
+    "batch_size": 256,
+    "max_epoch": 25,
+  
+    "validate_every": 1,
+  
+    "data_loader": "EntropyLoader",
+    "data_loader_workers": 4,
+    "pin_memory": true,
+    "async_loading": true,
+  
+    "log_interval": 6,
+
+    "mri_weights": "C:\\Users\\amerosa\\github\\Multimodal-Alzheimer\\experiments\\Basic_MRI_ResNet_Entropy30_withdecay\\Basic_MRI_ResNet_Entropy30_withdecay.pth",
+    "pet_weights": "C:\\Users\\amerosa\\github\\Multimodal-Alzheimer\\experiments\\Basic_PET_ResNet_Entropy30_withdecay\\Basic_PET_ResNet_Entropy30_withdecay.pth",
+    "data_folder": "C:\\Users\\amerosa\\github\\ADNI-MultiModal\\data\\random_30"
+  }
